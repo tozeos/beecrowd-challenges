@@ -1,6 +1,6 @@
 var input = require("fs").readFileSync("stdin", "utf8");
 
-// URI 1044 | TIPOS DE TRIÂNGULOS
+// URI 1044 | TIPOS DE TRIÂNGULOS not finished
 
 var splitted = input.split(" ").sort().reverse();
 
