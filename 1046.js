@@ -1,6 +1,6 @@
 var input = require("fs").readFileSync("stdin", "utf8");
 
-// URI 1049 | TEMPO DE JOGO
+// URI 1049 | TEMPO DE JOGO === NÃO RESOLVIDO AINDA
 
 let [start, end] = input.split(" ");
 let time = 0
