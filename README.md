@@ -1,3 +1,3 @@
-## Soluções do URI Online Judge em JavaScript
+## Soluções do URI Online Judge
 
 Este é o meu repositório de soluções de desafios do URI.
