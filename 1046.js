@@ -1,18 +1,16 @@
-var input = require("fs").readFileSync("stdin", "utf8");
+const { type } = require("os");
 
-// URI 1049 | TEMPO DE JOGO === NÃO RESOLVIDO AINDA
+var input = require("fs").readFileSync("stdin", "utf8");
+ 
+// URI 1049 | TEMPO DE JOGO -- ALGO ERRADO
 
 let [start, end] = input.split(" ");
-let time = 0
+let time = 0;
 
-if (start == end) {
-    console.log('O JOGO DUROU 24 HORA(S)')
+if(end <= start) {
+    time = parseInt(end) + 24
+    console.log(`O JOGO DUROU ${time} HORA(S)`)
 } else {
-    while (start != end) {
-        time++;
-        start++;
-        if (start == 25)
-            start = 1;
-    }
+    time =  parseInt(start) - parseInt(end)
     console.log(`O JOGO DUROU ${time} HORA(S)`)
 }
