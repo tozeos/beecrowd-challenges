@@ -1,9 +1,12 @@
 <?php
-$input = explode(" ", fgets(STDIN));
-$end = (int) $input[0];
-$start = (int) $input[1];
 
-if ($end <= $start)
-    $end += 24;
+// URI 1046 | TEMPO DE JOGO
 
-echo "O JOGO DUROU " . ($end - $start) . " HORA(S)" . PHP_EOL;
+$val = explode(" ", fgets(STDIN));
+$inicio = (int) $val[0];
+$fim = (int) $val[1];
+
+if ($fim <= $inicio)
+    $fim += 24;
+
+echo "O JOGO DUROU " . ($fim - $inicio) . " HORA(S)\n";
