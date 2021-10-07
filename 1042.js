@@ -1,21 +1,23 @@
 var input = require("fs").readFileSync("stdin", "utf8");
-var lines = input.split('\n');
+var lines = input.split("\n");
 
 // 1042 | SORT SIMPLES
 
-const comp = (a, b) => a - b
+const comp = (a, b) => a - b;
 
-let V = lines.shift().trim().split(' ').map((x) => parseInt(x))
-let v = [...V]
+let V = lines
+	.shift()
+	.trim()
+	.split(" ")
+	.map((x) => parseInt(x));
+let v = [...V];
 
-v.sort(comp)
+v.sort(comp);
 
 for (let i = 0; i < 3; i++) {
-    console.log(v[i])
-    
+	console.log(v[i]);
 }
-console.log()
+console.log();
 for (let i = 0; i < 3; i++) {
-    console.log(V[i])
-    
+	console.log(V[i]);
 }

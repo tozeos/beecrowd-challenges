@@ -1,11 +1,11 @@
-var input = require('fs').readFileSync('/dev/stdin', 'utf8');
+var input = require("fs").readFileSync("/dev/stdin", "utf8");
 
 // URI 1001 | EXTREMAMENTE BÁSICO
 
-var valores = input.split("\n")
+var valores = input.split("\n");
 
-var A = parseInt(valores.shift())
-var B = parseInt(valores.shift())
-var X = A + B
+var A = parseInt(valores.shift());
+var B = parseInt(valores.shift());
+var X = A + B;
 
-console.log(`X = ${X}`)
+console.log(`X = ${X}`);

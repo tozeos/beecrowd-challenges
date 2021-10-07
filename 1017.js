@@ -1,13 +1,12 @@
-var input = require('fs').readFileSync('/dev/stdin', 'utf8');
-var value = input.split('\n')
+var input = require("fs").readFileSync("/dev/stdin", "utf8");
+var value = input.split("\n");
 
 // 1017 | GASTO DE COMBUSTÍVEL
 
-var tempoViagem = parseInt(value.shift())
-var velocidadeMedia = parseInt(value.shift())
+var tempoViagem = parseInt(value.shift());
+var velocidadeMedia = parseInt(value.shift());
 
-var distanciaPercorrida = tempoViagem * velocidadeMedia
-var litrosNecessarios = (distanciaPercorrida / 12).toFixed(3)
+var distanciaPercorrida = tempoViagem * velocidadeMedia;
+var litrosNecessarios = (distanciaPercorrida / 12).toFixed(3);
 
-
-console.log(litrosNecessarios)
+console.log(litrosNecessarios);
