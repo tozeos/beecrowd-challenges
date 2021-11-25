@@ -6,4 +6,5 @@ var num = input.split("\n");
 var A = parseInt(num.shift());
 var B = parseInt(num.shift());
 var SOMA = A + B;
+
 console.log(`SOMA = ${SOMA}`);
