@@ -1,7 +1,7 @@
 var input = require("fs").readFileSync("/dev/stdin", "utf8");
 var lines = input.split("\n");
 
-// 1021 - NOTAS E MOEDAS
+// URI 1021 | NOTAS E MOEDAS
 
 let value = parseFloat(input);
 

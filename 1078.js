@@ -1,6 +1,6 @@
 var input = require("fs").readFileSync("stdin", "utf8");
 
-// 1078 | TABELA DE MULTIPLICAÇÃO
+// URI 1078 | TABELA DE MULTIPLICAÇÃO
 
 var n = input;
 n = parseInt(n);

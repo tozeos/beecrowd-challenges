@@ -1,7 +1,7 @@
 var input = require("fs").readFileSync("/dev/stdin", "utf8");
 const coord = input.split(" ");
 
-// 1041 - Coordenadas de um Ponto
+// URI 1041 | COORDENADAS DE UM PONTO
 
 let X = parseFloat(coord.shift());
 let Y = parseFloat(coord.shift());

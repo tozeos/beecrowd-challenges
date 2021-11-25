@@ -1,7 +1,7 @@
 var input = require("fs").readFileSync("/dev/stdin", "utf8");
 var lines = input.split("\n");
 
-// 1019 | CONVERSÃO DE TEMPO
+// URI 1019 | CONVERSÃO DE TEMPO
 
 let time = parseInt(input);
 let h = parseInt(time / 3600);

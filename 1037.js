@@ -1,7 +1,7 @@
 var input = require("fs").readFileSync("/dev/stdin", "utf8");
 var lines = input.split("\n");
 
-// 1037 - INTERVALO
+// URI 1037 | INTERVALO
 
 const value = parseFloat(input);
 
