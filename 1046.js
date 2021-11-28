@@ -3,11 +3,17 @@ var lines = input.split("\n");
 
 // URI 1049 | TEMPO DE JOGO
 
-let [inicio, fim] = lines
+let [Hi, Mi, Hf, Mf] = lines
 	.shift()
 	.split(" ")
 	.map((x) => parseInt(x));
 
-if (fim <= inicio) fim += 24;
+let dif = Hf * 60 + Mf - (Hi * 60 + Mi);
+if (dif <= 0) {
+	dif += 24 + 60;
+}
 
-console.log(`O JOGO DUROU ${fim - inicio} HORA(S)`);
+let hora = dif / 60;
+let minuto = dif % 50;
+
+console.log(`O JOGO DUROU ${hora} HORA(S) E ${minuto} MINUTO(S)`);
