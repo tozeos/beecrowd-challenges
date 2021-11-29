@@ -1,4 +1,4 @@
-# URI 1007 | DIFERENÇA
+# BEE 1007 | DIFERENÇA
 
 A = int(input())
 B = int(input())

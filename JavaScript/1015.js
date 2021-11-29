@@ -1,6 +1,6 @@
 var input = require("fs").readFileSync("/dev/stdin", "utf8");
 
-// URI 1015 | DISTÂNCIA ENTRE DOIS PONTOS
+// BEE 1015 | DISTÂNCIA ENTRE DOIS PONTOS
 
 var value = input.split("\n");
 var linha1 = value.shift().split(" ");

@@ -1,7 +1,7 @@
 var input = require("fs").readFileSync("/dev/stdin", "utf8");
 var lines = input.split("\n");
 
-// URI 1020 | IDADE EM DIAS
+// BEE 1020 | IDADE EM DIAS
 
 let totalDays = parseInt(input);
 let years = parseInt(totalDays / 365);

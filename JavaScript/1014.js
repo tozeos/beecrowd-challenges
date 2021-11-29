@@ -1,6 +1,6 @@
 var input = require("fs").readFileSync("/dev/stdin", "utf8");
 
-// URI 1014 | CONSUMO
+// BEE 1014 | CONSUMO
 
 var value = input.split("\n");
 var X = parseInt(value.shift());

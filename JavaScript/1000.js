@@ -1,3 +1,3 @@
-// URI 1000 | HELLO WORLD
+// BEE 1000 | HELLO WORLD
 
 console.log("Hello World!");

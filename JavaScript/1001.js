@@ -1,6 +1,6 @@
 var input = require("fs").readFileSync("/dev/stdin", "utf8");
 
-// URI 1001 | EXTREMAMENTE BÁSICO
+// BEE 1001 | EXTREMAMENTE BÁSICO
 
 var valores = input.split("\n");
 

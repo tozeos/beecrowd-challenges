@@ -1,7 +1,7 @@
 var input = require("fs").readFileSync("stdin", "utf8");
 var lines = input.split("\n");
 
-// URI 1132 | MÚLTIPLOS DE 13
+// BEE 1132 | MÚLTIPLOS DE 13
 
 var X = parseInt(lines.shift());
 var Y = parseInt(lines.shift());

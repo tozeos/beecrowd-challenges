@@ -1,7 +1,7 @@
 var input = require("fs").readFileSync("/dev/stdin", "utf8");
 var lines = input.split("\n");
 
-// URI 1036 | FÓRMULA DE BHASKARA
+// BEE 1036 | FÓRMULA DE BHASKARA
 
 var value = input.split(" ");
 

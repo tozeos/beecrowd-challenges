@@ -1,6 +1,6 @@
 var input = require("fs").readFileSync("/dev/stdin", "utf8");
 
-// URI 1002 | ÁREA DO CÍRCULO
+// BEE 1002 | ÁREA DO CÍRCULO
 
 var raio = parseFloat(input);
 var PI = 3.14159;

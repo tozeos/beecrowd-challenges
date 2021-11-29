@@ -1,6 +1,6 @@
 var input = require("fs").readFileSync("/dev/stdin", "utf8");
 
-// URI 1009 | SALÁRIO COM BÔNUS
+// BEE 1009 | SALÁRIO COM BÔNUS
 
 var valores = input.split("\n");
 var nome = valores.shift(); // CHECAR

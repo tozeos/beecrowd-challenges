@@ -1,6 +1,6 @@
 var input = require("fs").readFileSync("/dev/stdin", "utf8");
 
-// URI 1008 | SALÁRIO
+// BEE 1008 | SALÁRIO
 
 var valores = input.split("\n");
 var numero = parseInt(valores.shift());

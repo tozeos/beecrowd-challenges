@@ -1,6 +1,6 @@
 <?php
 
-// URI 1067 | NÚMEROS ÍMPARES
+// BEE 1067 | NÚMEROS ÍMPARES
 
 # $n = (int) fgets(fopen("stdin", "rw"));
 $n = fgets(STDIN);

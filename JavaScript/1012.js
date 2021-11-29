@@ -1,6 +1,6 @@
 var input = require("fs").readFileSync("/dev/stdin", "utf8");
 
-// URI 1012 | ÁREA
+// BEE 1012 | ÁREA
 
 var values = input.split(" ");
 

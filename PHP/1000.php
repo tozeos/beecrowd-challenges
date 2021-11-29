@@ -1,4 +1,4 @@
 <?php
-    # URI 1000 | HELLO WORLD
+    # BEE 1000 | HELLO WORLD
     echo "Hello World!\n"; 
 ?>

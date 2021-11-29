@@ -1,7 +1,7 @@
 var input = require("fs").readFileSync("/dev/stdin", "utf8");
 var lines = input.split("\n");
 
-// URI 1035 | TESTE DE SELEÇÃO 1
+// BEE 1035 | TESTE DE SELEÇÃO 1
 
 var value = input.split(" ");
 

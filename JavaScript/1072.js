@@ -1,7 +1,7 @@
 var input = require("fs").readFileSync("stdin", "utf8");
 var lines = input.split("\n");
 
-// URI 1072 | INTERVALO 2
+// BEE 1072 | INTERVALO 2
 
 // Leia um valor inteiro N.
 

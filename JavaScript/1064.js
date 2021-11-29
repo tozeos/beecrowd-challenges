@@ -1,7 +1,7 @@
 var input = require("fs").readFileSync("stdin", "utf8");
 let lines = input.split("\r");
 
-// URI 1064 | POSITIVOS E MÉDIA
+// BEE 1064 | POSITIVOS E MÉDIA
 
 var sum = 0;
 var positiveNum = 0;

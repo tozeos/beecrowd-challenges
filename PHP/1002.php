@@ -1,6 +1,6 @@
 <?php
 
-# URI 1002 | ÁREA DO CÍRCULO
+# BEE 1002 | ÁREA DO CÍRCULO
 
 $raio = fgets(STDIN);
 $pi = 3.14159;

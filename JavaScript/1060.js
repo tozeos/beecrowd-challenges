@@ -1,7 +1,7 @@
 var input = require("fs").readFileSync("stdin", "utf8");
 var lines = input.split("\n");
 
-// URI 1060 | NÚMEROS POSITIVOS
+// BEE 1060 | NÚMEROS POSITIVOS
 
 let p = 0;
 

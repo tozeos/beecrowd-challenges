@@ -1,6 +1,6 @@
 var input = require("fs").readFileSync("stdin", "utf8");
 
-// URI 1051 | IMPOSTO DE RENDA
+// BEE 1051 | IMPOSTO DE RENDA
 
 let renda = parseFloat(input);
 let imposto = 0;

@@ -1,4 +1,4 @@
-# URI 1004 | PRODUTO SIMPLES
+# BEE 1004 | PRODUTO SIMPLES
 
 A = int(input())
 B = int(input())

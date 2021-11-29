@@ -1,6 +1,6 @@
 var input = require("fs").readFileSync("stdin", "utf8");
 
-// URI 1044 | MÚLTIPLOS
+// BEE 1044 | MÚLTIPLOS
 
 var splitted = input.split(" ");
 

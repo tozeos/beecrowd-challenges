@@ -1,3 +1,5 @@
-## Soluções do URI Online Judge
+## Soluções do BEECROWD 🐝
 
-Este é o meu repositório de soluções de desafios do URI.
+Minhas soluções de desafios do beecrowd (antigo URI Online Judge) em JavaScript, PHP e posteriormente em Python. Estes eu faço quando não tenho muita coisa para fazer e fico entediado.
+
+

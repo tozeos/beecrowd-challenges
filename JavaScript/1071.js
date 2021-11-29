@@ -1,7 +1,7 @@
 var input = require("fs").readFileSync("stdin", "utf8");
 let lines = input.split("\r");
 
-// URI 1071 | SOMA DE IMPARES CONSECUTIVOS I
+// BEE 1071 | SOMA DE IMPARES CONSECUTIVOS I
 
 var x = parseInt(lines.shift());
 var y = parseInt(lines.shift());

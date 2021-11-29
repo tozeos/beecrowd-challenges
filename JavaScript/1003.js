@@ -1,6 +1,6 @@
 var input = require("fs").readFileSync("/dev/stdin", "utf8");
 
-// URI 1003 | SOMA SIMPLES
+// BEE 1003 | SOMA SIMPLES
 
 var num = input.split("\n");
 var A = parseInt(num.shift());

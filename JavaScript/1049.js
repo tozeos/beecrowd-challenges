@@ -1,6 +1,6 @@
 var input = require("fs").readFileSync("stdin", "utf8");
 
-// URI 1049 | ANIMAL
+// BEE 1049 | ANIMAL
 
 let [a, b, c] = input.split("\n");
 

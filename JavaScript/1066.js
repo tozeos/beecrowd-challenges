@@ -1,7 +1,7 @@
 var input = require("fs").readFileSync("stdin", "utf8");
 let lines = input.split("\r");
 
-// URI 1067 | PARES, ÍMPARES, POSITIVOS E NEGATIVOS
+// BEE 1067 | PARES, ÍMPARES, POSITIVOS E NEGATIVOS
 
 var even = 0;
 var odd = 0;

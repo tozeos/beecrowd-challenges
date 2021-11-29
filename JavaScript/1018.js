@@ -1,7 +1,7 @@
 var input = require("fs").readFileSync("/dev/stdin", "utf8");
 var lines = input.split("\n");
 
-// URI 1018 | CÉDULAS
+// BEE 1018 | CÉDULAS
 
 let value = parseInt(input);
 

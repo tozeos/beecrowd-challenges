@@ -1,6 +1,6 @@
 var input = require("fs").readFileSync("/dev/stdin", "utf8");
 
-// URI 1010 | CÁLCULO SIMPLES
+// BEE 1010 | CÁLCULO SIMPLES
 
 //Item 1
 

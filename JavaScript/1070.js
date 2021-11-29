@@ -1,7 +1,7 @@
 var input = require("fs").readFileSync("stdin", "utf8");
 let lines = input.split("\r");
 
-// URI 1070 | SEIS NÚMEROS CONSECUTIVOS
+// BEE 1070 | SEIS NÚMEROS CONSECUTIVOS
 
 var result = parseInt(lines);
 var contador = 0;

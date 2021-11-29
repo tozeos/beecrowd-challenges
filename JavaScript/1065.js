@@ -1,7 +1,7 @@
 var input = require("fs").readFileSync("stdin", "utf8");
 let lines = input.split("\r");
 
-// URI 1065 | PARES ENTRE CINCO NÚMEROS
+// BEE 1065 | PARES ENTRE CINCO NÚMEROS
 
 var evenNum = 0;
 

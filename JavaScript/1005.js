@@ -1,6 +1,6 @@
 var input = require("fs").readFileSync("/dev/stdin", "utf8");
 
-// URI 1005 | MÉDIA 1
+// BEE 1005 | MÉDIA 1
 
 var valores = input.split("\n");
 var A = parseFloat(valores.shift());

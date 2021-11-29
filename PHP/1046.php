@@ -1,6 +1,6 @@
 <?php
 
-// URI 1046 | TEMPO DE JOGO
+// BEE 1046 | TEMPO DE JOGO
 
 $val = explode(" ", fgets(STDIN));
 $inicio = (int) $val[0];

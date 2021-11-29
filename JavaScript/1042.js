@@ -1,7 +1,7 @@
 var input = require("fs").readFileSync("stdin", "utf8");
 var lines = input.split("\n");
 
-// URI 1042 | SORT SIMPLES
+// BEE 1042 | SORT SIMPLES
 
 const comp = (a, b) => a - b;
 

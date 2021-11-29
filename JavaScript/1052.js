@@ -1,6 +1,6 @@
 var input = require("fs").readFileSync("stdin", "utf8");
 
-// URI 1049 | MONTH
+// BEE 1049 | MONTH
 
 let d = new Date(input);
 const monthNames = [

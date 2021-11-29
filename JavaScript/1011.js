@@ -1,6 +1,6 @@
 var input = require("fs").readFileSync("/dev/stdin", "utf8");
 
-// URI 1011 | ESFERA
+// BEE 1011 | ESFERA
 
 var raio = parseFloat(input);
 var pi = 3.14159;

@@ -1,6 +1,6 @@
 var input = require("fs").readFileSync("stdin", "utf8");
 
-// URI 1067 | NÚMEROS ÍMPARES
+// BEE 1067 | NÚMEROS ÍMPARES
 
 input = parseInt(input);
 

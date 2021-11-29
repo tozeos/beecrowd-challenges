@@ -1,7 +1,7 @@
 var input = require("fs").readFileSync("stdin", "utf8");
 var lines = input.split("\n");
 
-// URI 1049 | TEMPO DE JOGO
+// BEE 1049 | TEMPO DE JOGO
 
 let [Hi, Mi, Hf, Mf] = lines
 	.shift()

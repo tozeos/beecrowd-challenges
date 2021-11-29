@@ -1,4 +1,4 @@
-# URI 1002 | ÁREA DO CÍRCULO
+# BEE 1002 | ÁREA DO CÍRCULO
 
 raio = float(input())
 pi = 3.14159

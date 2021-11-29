@@ -1,4 +1,4 @@
-# URI 1006 | MÉDIA 2
+# BEE 1006 | MÉDIA 2
 
 A = float(input())
 B = float(input())

@@ -1,6 +1,6 @@
 var input = require("fs").readFileSync("/dev/stdin", "utf8");
 
-// URI 1013 | O MAIOR
+// BEE 1013 | O MAIOR
 
 var values = input.split(" ");
 var a = parseInt(values.shift());

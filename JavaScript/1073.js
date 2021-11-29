@@ -1,6 +1,6 @@
 var input = require("fs").readFileSync("stdin", "utf8");
 
-// URI 1044 | QUADRADO DE PARES
+// BEE 1044 | QUADRADO DE PARES
 
 let n = parseInt(input);
 let a = 2;

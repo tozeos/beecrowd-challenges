@@ -1,6 +1,6 @@
 var input = require("fs").readFileSync("stdin", "utf8");
 
-// URI 1048 | AUMENTO DE SALÁRIO
+// BEE 1048 | AUMENTO DE SALÁRIO
 
 let salary = parseFloat(input);
 let percentage = 0;

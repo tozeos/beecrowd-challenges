@@ -1,4 +1,4 @@
-# URI 1003 | SOMA SIMPLES
+# BEE 1003 | SOMA SIMPLES
 
 A = int(input())
 B = int(input())

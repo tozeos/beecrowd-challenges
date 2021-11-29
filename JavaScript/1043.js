@@ -1,6 +1,6 @@
 var input = require("fs").readFileSync("stdin", "utf8");
 
-// URI 1043 | TRIÂNGULO
+// BEE 1043 | TRIÂNGULO
 
 var splitted = input.split(" ");
 

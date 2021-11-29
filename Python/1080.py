@@ -1,4 +1,4 @@
-# BEECROWD 1080 | MAIOR E POSIÇÃO
+# BEE 1080 | MAIOR E POSIÇÃO
 
 posicao = 0
 maior = 0

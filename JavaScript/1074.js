@@ -1,7 +1,7 @@
 var input = require("fs").readFileSync("stdin", "utf8");
 var lines = input.split("\n");
 
-// URI 1074 | PAR OU ÍMPAR
+// BEE 1074 | PAR OU ÍMPAR
 
 var N = parseInt(input.split("\n"));
 lines.shift();

@@ -1,6 +1,6 @@
 var input = require("fs").readFileSync("/dev/stdin", "utf8");
 
-// URI 1007 | DIFERENÇA
+// BEE 1007 | DIFERENÇA
 
 var valores = input.split("\n");
 var A = parseInt(valores.shift());
