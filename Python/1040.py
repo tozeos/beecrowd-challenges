@@ -1,3 +1,5 @@
+# BEE 1040 | MÉDIA 3
+
 nota = [float(x) for x in input().strip().split(' ')]
 
 media = (2 * nota[0] + 3 * nota[1] + 4 * nota[2] + 1 * nota[3]) / 10
