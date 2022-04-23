@@ -12,20 +12,20 @@ let coelhos = 0,
 	total = 0;
 
 for (let i = 0; i < testes; i++) {
-	let exp = lines.shift().split(" ");
+	let exp = lines.shift().trim().split(" ");
 	numeroCobaias = parseInt(exp.shift());
 	identificador = exp.shift();
 	total += numeroCobaias;
 
-	if (identificador == "C\r") {
+	if (identificador == "C") {
 		coelhos += numeroCobaias;
 	}
 
-	if (identificador == "R\r") {
+	if (identificador == "R") {
 		ratos += numeroCobaias;
 	}
 
-	if (identificador == "S\r") {
+	if (identificador == "S") {
 		sapos += numeroCobaias;
 	}
 }
