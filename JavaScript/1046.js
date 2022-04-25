@@ -1,19 +1,13 @@
-var input = require("fs").readFileSync("stdin", "utf8");
+var input = require("fs").readFileSync("/dev/stdin", "utf8");
 var lines = input.split("\n");
 
-// BEE 1049 | TEMPO DE JOGO
+// BEE 1046 | TEMPO DE JOGO
 
-let [Hi, Mi, Hf, Mf] = lines
+let [inicio, fim] = lines
 	.shift()
 	.split(" ")
 	.map((x) => parseInt(x));
 
-let dif = Hf * 60 + Mf - (Hi * 60 + Mi);
-if (dif <= 0) {
-	dif += 24 + 60;
-}
+if (fim <= inicio) fim += 24;
 
-let hora = dif / 60;
-let minuto = dif % 50;
-
-console.log(`O JOGO DUROU ${hora} HORA(S) E ${minuto} MINUTO(S)`);
+console.log(`O JOGO DUROU ${fim - inicio} HORA(S)`);
