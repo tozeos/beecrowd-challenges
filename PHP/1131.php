@@ -12,11 +12,11 @@ $draw = 0;
 
 while ($newGrenal == 1) {
     if ($int > $gre) {
-        $intWin+=1;
+        $intWin++;
     } elseif ($int < $gre) {
-        $greWin+=1;
+        $greWin++;
     } else {
-        $draw+=1;
+        $draw++;
     }
 
     echo "Novo grenal (1-sim 2-nao)" . PHP_EOL;
