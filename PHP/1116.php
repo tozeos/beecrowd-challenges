@@ -1,5 +1,7 @@
 <?php
 
+# BEE 1116 | DIVIDINDO X POR Y
+
 $N = (int) fgets(STDIN);
 
 while($N--) {
