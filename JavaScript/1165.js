@@ -4,11 +4,24 @@ var lines = input.trim().split("\n");
 // BEE 1165 | NÚMERO PRIMO
 // DEIXAR PRA DEPOIS
 
-let N = parseInt(input.split("\n"));
-let number = lines
-	.shift()
-	.trim()
-	.split(" ")
-	.map((x) => parseInt(x));
+var N = parseInt(lines.shift());
 
-console.log(number);
+for (let i = 0; i < N; i++) {
+	let count = 0;
+	let number = lines
+		.shift()
+		.split(" ")
+		.map((x) => parseInt(x));
+
+	for (let n = 1; n <= number[0]; n++) {
+		if (number[0] % n == 0) {
+			count++;
+		}
+	}
+
+	if (count == 2) {
+		console.log(`${number[0]} eh primo`);
+	} else {
+		console.log(`${number[0]} nao eh primo`);
+	}
+}
